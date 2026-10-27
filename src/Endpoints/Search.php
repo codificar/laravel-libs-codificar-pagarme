@@ -13,7 +13,7 @@ class Search extends Endpoint
      *
      * @return \ArrayObject
      */
-    public function get(array $payload = null)
+    public function get(?array $payload = null)
     {
         return $this->client->request(
             self::GET,

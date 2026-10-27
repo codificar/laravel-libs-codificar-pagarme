@@ -137,7 +137,7 @@ class Client
      * @param string $apiKey
      * @param array|null $extras
      */
-    public function __construct($apiKey, array $extras = null)
+    public function __construct($apiKey, ?array $extras = null)
     {
         $this->apiKey = $apiKey;
 

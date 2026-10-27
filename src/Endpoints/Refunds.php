@@ -13,7 +13,7 @@ class Refunds extends Endpoint
      *
      * @return \ArrayObject
      */
-    public function getList(array $payload = null)
+    public function getList(?array $payload = null)
     {
         return $this->client->request(
             self::GET,
